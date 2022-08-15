@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newList {
+  border-radius: 5px;
+  width: 30vw;
+  box-shadow: 3px 3px 5px 5px lightgray;
+}
+
+.today {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.top {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+#eye {
+  background-color: white;
+  border: none;
+  margin-right: 10px;
+  padding: 10px 20px 10px 20px;
+}
+
+#activity {
+  border: none;
+  width: 28vw;
+  padding: 10px;
+}
+
+.ToDoList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ToDoList li {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.remove button {
+  padding: 10px;
+  width: 30vw;
+  color: rgb(148, 145, 145);
+  border: none;
+}
